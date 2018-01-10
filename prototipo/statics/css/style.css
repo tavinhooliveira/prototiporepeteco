@@ -1,0 +1,354 @@
+
+body #icludeHearder {margin-top: 40px !important;}
+.perfil .ui-link {color: #3498db !important;}
+
+.glyphicon {color: #989191!important}
+.fa {color: #989191!important}
+
+.ui-page-theme-a a, html .ui-bar-a a, html .ui-body-a a, html body .ui-group-theme-a a {
+    color: #3388cc /*{a-link-color}*/;
+    font-weight: normal !important}
+
+header {
+    width: 100%;
+    height: 50px;
+    background-color: #f3f3f3;
+    z-index: 2;
+    position: relative;
+    border: 1px solid #e4e4e4;
+}
+header .container {
+    position: relative;
+}
+header #logotipo {
+    width: 64px;
+    height: 31px;
+    margin-top: -5px;
+    margin-left: -17px;
+}
+.menu {
+    margin-top: 10px;
+    color: #000;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.menu a {
+    color: #989191;
+    text-decoration: none;
+}
+.menu a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+.ListFriends #friendsCount{color: #969494; font-size: 12px;}
+
+.perfilPrincipal #friendsCount{margin-right: 10px;}
+
+.searchClassification {
+    margin-top: 50px !important;
+    width: 85% !important;
+    margin: 10px;
+}
+.searchClassification input {
+    background-color: #dadada;
+    color: #000;
+    border: none;
+    height: 35px;
+    line-height: 30px;
+    padding-left: 8px;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.ListFriends .dropdown-menu{min-width: 50px !important;}
+
+
+.ui-input-text, .ui-input-search { border-style: none !important;}
+.ui-input-has-clear {padding-right: 0 !important;}
+/*Lista de classificação de Amigos*/
+.ListFriends {
+    margin-top: 95px;
+}
+.ListFriends ul.img_classification {
+    width: 298px;
+    margin-left: -10px;
+    position: absolute;
+    margin-top: -12px;
+}
+.ListFriends .classification {
+    margin-left: -10px;
+}
+.ListFriends .media-heading {
+    text-align: left;
+    width: 245px;
+}
+.ListFriends .classification p a{
+    color: #3388cc !important;
+}
+.ListFriends .LfLocation {
+    text-align: left;
+    font-size: 9px;
+    margin-left: 2px;
+    margin-top: -3px;
+}
+.ListFriends .col-md-4 {
+    width: 32.333333%
+}
+.ListFriends .list-group {
+    margin-left: 10px;
+}
+.ListFriends .list-group-item {
+    margin-top: 10px;
+    margin-right: 10px;
+    padding-left: 5px;
+    padding-right: 50px;
+}
+
+.ListFriends .LfPicture {
+    margin-left: -15px;
+}
+.ListFriends li .LfPicture img {
+    width: 83px;
+    height: 83px;
+    border-radius: 41px;
+    border: 4px solid rgba(163, 173, 183, 0.54) !important;
+    background: #fff;
+}
+.ListFriends .list-group-item a:hover {
+    color: #23527c;
+    text-decoration: none;
+}
+
+/*List Star Classification*/
+.ListFriends .starClassification {
+    background-image: url("../img/star.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin: 0px;
+    width: 40px;
+    height: 35px;
+}
+.ListFriends .starClassification {
+    background-position: -4px -4px;
+    margin-top: 2px;
+    margin-right: -51px;
+}
+.ListFriends .classificationTrue {
+    background-position: -4px -43px;
+    margin-top: 0px;
+    margin-right: -51px;
+    z-index: 9999;
+}
+
+
+
+/*List Friends img option*/
+.ListFriends .img_classification{
+    width: 220px;
+    margin-top: 10px;
+}
+.ListFriends .img_classification label{
+    margin-left: 5px
+}
+.ListFriends .img_classification input[type="radio"]{
+    display: none;
+}
+.ListFriends .img_classification input[type="radio"]+span:before{
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 35px;
+    margin-bottom: -2px;
+    margin-right: 5px;
+    background: url("../img/imgclassificationm.png") no-repeat center bottom;
+    background-position: -5px -1px;
+}
+.ListFriends .img_classification input[type="radio"]:checked+span:before{
+    background: url("../img/imgclassificationm.png") no-repeat center bottom;
+}
+
+.ListFriends .img_classification .cl_fiquei input[type="radio"]+span:before{background-position: -5px -1px;}
+.ListFriends .img_classification .cl_fiquei input[type="radio"]+span:hover{background-position: -5px -34px;}
+.ListFriends .img_classification .cl_fiquei input[type="radio"]:checked+span:before{ background-position: -5px -34px; }
+
+.ListFriends .img_classification .cl_ficaria2 input[type="radio"]+span:before{background-position: -60px -1px;}
+.ListFriends .img_classification .cl_ficaria2 input[type="radio"]:checked+span:before{ background-position: -60px -34px;}
+
+.ListFriends .img_classification .cl_picante input[type="radio"]+span:before{background-position: -120px -1px;}
+.ListFriends .img_classification .cl_picante input[type="radio"]:checked+span:before{ background-position: -120px -34px;}
+
+.ListFriends .img_classification .cl_fico input[type="radio"]+span:before{background-position: -165px -1px;}
+.ListFriends .img_classification .cl_fico input[type="radio"]:checked+span:before{ background-position: -165px -34px;}
+
+.ListFriends .img_classification .cl_Ninteresse input[type="radio"]+span:before{background-position: -217px -1px;}
+.ListFriends .img_classification .cl_Ninteresse input[type="radio"]:checked+span:before{ background-position: -217px -34px;}
+
+
+
+/*footer*/
+
+footer {
+    margin-top: 110px;
+    border-top: 1px solid #e7e7e7;
+}
+footer .row {
+    width: 100%;
+}
+footer .row p {
+    line-height: 55px;
+    margin-bottom: 0;
+}
+footer .row-cinza-claro {
+    height: 200px;
+    background-color: #171F26;
+}
+footer .row-creditos-footer {
+    height: 40px;
+    border-top: #e0e0e0 1px solid;
+    padding-top: 10px;
+}
+footer a {
+    color: #989191;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #000;
+    text-decoration: none;
+}
+footer .col-links .fa {
+    margin: 0 6px;
+}
+
+/*====================================Perfil======================*/
+.perfil{}
+.perfil ul.img_classification {width: 298px;margin-left: -10px;}
+.perfil .classification {margin-left: 62%;}
+.perfil .perfilPicture {margin-top: 10px;margin-left: 237px;}
+.perfil .perfilPicture img { width: 150px;height: 150px;border-radius: 86px; border: 5px solid #e8e8e8;background-color: #fff;}
+.perfil .perfilName{margin-bottom: 10px;text-align: center;}
+.perfil .perfilbrprogress {margin-bottom: -15px;}
+.perfil .perfilbrprogress p{position: absolute;margin-left: 84%;margin-top: -14px;font-size: 10px;color: #8a8989;}
+.perfil .perfilbrprogress .progress-bar {background-color: rgba(51, 122, 183, 0.52);-webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);-webkit-transition: width .6s ease;-o-transition: width .6s ease;transition: width .6s ease;}
+.perfil .list-group {}
+.perfil .list-group-item {margin-top: 10px;margin-right: 10px;padding-left: 5px;padding-right: 5px; border-radius: 5px;}
+.perfil li img {width: 80px;height: 80px;}
+.perfil .list-group-item a:hover {color: #23527c;text-decoration: none;}
+.perfil li {display: inline-block;}
+/*List Classification*/
+.perfil li ul li {background-image: url("../img/imgclassificationm.png");background-repeat: no-repeat;display: inline-block;margin: 0px;width: 50px;height: 35px;margin-top: 7px;}
+/*List Classification*/
+.perfil li ul li.cl_fiquei {background-position: -5px -1px;}
+.perfil li ul li.cl_ficaria2 {background-position: -60px -1px;}
+.perfil li ul li.cl_picante {background-position: -114px -1px}
+.perfil li ul li.cl_fico {background-position: -162px -1px;}
+.perfil li ul li.cl_Ninteresse {background-position: -213px -1px;}
+/*List Classification Hover*/
+.perfil li ul li.cl_fiquei:hover {background-position: -5px -32px;}
+.perfil li ul li.cl_ficaria2:hover {background-position: -60px -32px;}
+.perfil li ul li.cl_picante:hover {background-position: -115px -34px}
+.perfil li ul li.cl_fico:hover {background-position: -163px -34px;}
+.perfil li ul li.cl_Ninteresse:hover {background-position: -213px -34px;}
+.perfilMatch{margin-top: 10px;}
+.perfilMatch .perfilMatchList{color: #8a8989; border-bottom: 1px solid #dad2d2; margin-bottom: 20px; margin-left: 0px;}
+.perfilMatch .perfilMatchListInfo{margin-bottom: 10px;}
+.perfil .classification .badge{margin-top: 36px; margin-left: 3px;}
+.perfil .classification #cont_cl_fico{margin-left: 6px;}
+.perfil .classification #cont_cl_picante{margin-left: 6px;}
+.perfilNewFriends small{color: #8a8989;}
+.perfilNewFriends ul li a img {width: 50px; height: 50px; border-radius: 86px; border: 2px solid #e8e8e8;}
+.perfilNewFriends ul li a p {font-size: 10px; margin-left: 5px;}
+.perfilNewFriends ul {margin-left: -62px; margin-top: 5px;}
+.perfilNewFriends ul li {display: inline-block; padding-left: 12px; width: 60px !important;}
+.perfilNewFriends #menu-carrossel a {margin-top: -56px; z-index: 999; border: 5px solid #e4ecf3; border-radius: 15px;}
+.perfil .perfilConfig .list-group-item {margin-top: 0px;}
+.configuracao .perfilConfig p{text-align: center; color: #777; border-bottom: 1px solid #eae7e7;}
+.perfil .perfilConfig i{color: #dad2d2;}
+/*css para o botao notificacao*/
+.perfilConfig .toggle.btn {float: right;}
+.perfilMatch .perfilMatchListInfo a i{
+    background-image: url("../img/imgclassificationm.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin: 0px;
+    width: 40px;
+    height: 35px;
+    margin-bottom: -9px;
+}
+.perfilMatch .perfilMatchListInfo a i.cl_ficaria2{background-position: -160px -32px;}
+.perfilMatch .perfilMatchListInfo a i.cl_fico{background-position: -57px -32px;}
+
+.perfil .staricon{margin-left: 5px; color: #818181; margin-top: -8px !important;}
+
+
+#logar{margin-top: 60px !important;}
+#logar .classificationInfo{
+    width: 547px;
+    margin-left: -5px;
+}
+
+/*===============================Notificacao=====================*/
+.notification li ul li {
+    background-image: url("../img/imgclassificationm.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin: 0px;
+    width: 40px;
+    height: 35px;
+    margin-top: 30px;
+}
+
+.ListFriends .notification {
+    margin-top: 13px;
+}
+.ListFriends .notification ul.img_classification {
+    margin-left: -34px;
+    position: absolute;
+    margin-top: -95px;
+}
+.ListFriends li .notification ul li.cl_ficaria2 {
+    background-position: -60px -34px;
+}
+.ListFriends li .notification ul li.cl_fico {
+    background-position: -162px -34px;
+}
+
+.notification .img_classification{
+    width: 4px;
+    margin-top: -26px;
+}
+
+.notification .img_classification .imgficaria2{
+    background-image: url(../img/imgficaria2.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin: 0px;
+    width: 40px;
+    height: 58px;
+    margin-top: -51px;
+}
+
+.notification .img_classification .imgficaria{
+    background-image: url(../img/imgficaria.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin: 0px;
+    width: 40px;
+    height: 58px;
+    margin-top: -51px;
+}
+
+
+.ListFriends .notification .Nfdate{
+    margin-top: -35px;
+    position: absolute;
+    font-size: 10px;
+    color: #cecdcd;
+    margin-left: 8px;
+}
+
+.btnNotification {margin: 15px 15px 0px 15px;}
+
+.modal-body img{ width: 100%;}
+ 

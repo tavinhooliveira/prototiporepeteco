@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="MeGas">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+<!-- <link rel="shortcut icon" href="img/favicon.ico" /> -->
+
+    <title>Notificação</title>
+   	<link rel="stylesheet" href="../statics/css/style.css">
+	<link rel="stylesheet" href="../statics/css/styleMobile.css">
+	<link rel="stylesheet" href="../statics/css/bootstrap.css">
+    <link rel="stylesheet" href="../statics/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../statics/css/bootstrap-toggle.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../statics/css/jquery.mobile.1.5.0.css">
+
+</head>
+<body>
+	<div id="icludeHearder"></div>
+		<section>
+			
+				
+			
+			<!--Search -->
+ 			<div id="searchClassification" class="container searchClassification navbar-fixed-top">
+			 	<input type="text" id="searchInput" onkeyup="functionSearch()" placeholder="Buscar...">
+			</div>		
+
+			<div id="ListFriends" class="ListFriends container notification">
+
+				<div class="btnNotification " class="btn-group" role="group" >
+					<span> <a onclick="history.go(-1)"><i class="glyphicon glyphicon-chevron-left"></i>Voltar</a></span>
+
+						<div class="btn-group pull-right" role="group">
+					      <div class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					        <i class="glyphicon glyphicon-bell"></i>
+					        <span class="caret"></span>
+					      </div>
+					      <ul class="dropdown-menu">                
+					        <li><a onclick="location.href='notificacaoNewFica.html'" data-transition="slide">Novo Lance</a></li>
+					        <li><a onclick="location.href='notificacaoFlashBack.html'">Flash Back</a></li>
+					        <li role="separator" class="divider"></li>
+					        <li><a onclick="location.href='notificacao.html'">Todos</a></li>
+					      </ul>
+					    </div>
+						   
+			  	</div>	
+
+
+
+				<ul class="list-group" id="searchUL">
+					
+					<li class="list-group-item col-md-4 notification" >
+					  <div class="media-left LfPicture">
+					    <a href="#">
+					      <img class="media-object " src="../statics/img/photos/avatar.jpg" alt="...">
+					    </a>
+					  </div>
+					  <div class="media-body  notification">
+					    <h4 class="NFName"><a href="#">Amanda Ramalho</a></h4>
+					   	 <small class="Nfmensagem">Disse que rola um possivel... <br> <b>Lance</b> </small>
+					  </div>
+					   <div class="notification pull-right">
+						 	<div class="img_classification">
+								<i class="imgficaria" data-toggle="tooltip" data-placement="top" title="Ficaria Novamente"></i>
+							</div>
+							<span class="Nfdate">1min</span>
+						</div>
+					</li>
+
+					<li class="list-group-item col-md-4 notification" >
+					  <div class="media-left LfPicture">
+					    <a href="#">
+					      <img class="media-object " src="../statics/img/photos/avatar3.jpg" alt="...">
+					    </a>
+					  </div>
+					  <div class="media-body  notification">
+					    <h4 class="NFName"><a href="#">Bruna Evelin</a></h4>
+					   	 <small class="Nfmensagem">Disse que rola um possivel... <br> <b>Lance!</b> </small>
+					  </div>
+					   <div class="notification pull-right">
+						 	<div class="img_classification">
+								<i class="imgficaria" data-toggle="tooltip" data-placement="top" title="Ficaria Novamente"></i>
+							</div>
+							<span class="Nfdate">5min</span>
+						</div>
+					</li>
+
+					<li class="list-group-item col-md-4 notification" >
+					  <div class="media-left LfPicture">
+					    <a href="#">
+					      <img class="media-object " src="../statics/img/photos/avatar4.jpg" alt="...">
+					    </a>
+					  </div>
+					  <div class="media-body  notification">
+					    <h4 class="NFName"><a href="#">Gisele Ramalho</a></h4>
+					   	 <small class="Nfmensagem">Disse que rola um possivel... <br> <b>Lance</b> </small>
+					  </div>
+					   <div class="notification pull-right">
+						 	<div class="img_classification">
+								<i class="imgficaria" data-toggle="tooltip" data-placement="top" title="Ficaria Novamente"></i>
+							</div>
+							<span class="Nfdate">15min</span>
+						</div>
+					</li>
+
+					<li class="list-group-item col-md-4 notification" >
+					  <div class="media-left LfPicture">
+					    <a href="#">
+					      <img class="media-object " src="../statics/img/photos/avatar1.jpg" alt="...">
+					    </a>
+					  </div>
+					  <div class="media-body  notification">
+					    <h4 class="NFName"><a href="#">Jane Kelly</a></h4>
+					   	 <small class="Nfmensagem">Disse que rola um possivel... <br> <b>Lance</b> </small>
+					  </div>
+					   <div class="notification pull-right">
+						 	<div class="img_classification">
+								<i class="imgficaria" data-toggle="tooltip" data-placement="top" title="Ficaria Novamente"></i>
+							</div>
+							<span class="Nfdate">24min</span>
+						</div>
+					</li>
+
+
+														
+				</ul>
+			</div>	
+
+		</section>
+		<div id="icludeFooter"></div>
+
+
+<!-- <script src="../statics/js/loginFacebook.js"></script> -->
+<script src="../statics/js/jquery.min.js"></script>
+<script src="../statics/js/bootstrap/js/bootstrap-toggle.js"></script>
+<script src="../statics/js/bootstrap/js/bootstrap.js"></script>
+<script src="../statics/js/util.js"></script>
+<!-- <script src="../statics/js/jquery.mobile.custom.js"></script> -->
+
+<script type="text/javascript">
+	/*tooltip*/
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="MeGas">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+<!-- <link rel="shortcut icon" href="img/favicon.ico" /> -->
+
+    <title>Configigurações</title>
+	<link rel="stylesheet" href="../statics/css/style.css">
+	<link rel="stylesheet" href="../statics/css/styleMobile.css">
+	<link rel="stylesheet" href="../statics/css/bootstrap.css">
+    <link rel="stylesheet" href="../statics/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../statics/css/bootstrap-toggle.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="../statics/css/jquery.mobile.1.5.0.css">
+   <!--   <link rel="stylesheet" href="../statics/css/jquery.mobile.custom.structure.css"> -->
+
+<link href="https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+<body>
+	<div id="icludeHearder"></div>
+	<section>
+	
+	<div id="configuracao" class="configuracao col-md-6 container panel col-md-offset-3">
+			
+			<div id="perfilConfig" class="perfilConfig panel-body">
+
+
+				<div class="btnNotification " class="btn-group" role="group" >
+					<span> <a onclick="history.go(-1)"><i class="glyphicon glyphicon-chevron-left"></i>Voltar</a></span>
+
+						<div class="btn-group pull-right" role="group">
+							<small>Configurações</small>
+					      <i class="glyphicon glyphicon-cog"></i>
+					    </div>						   
+			  	</div>	
+
+
+				<div data-role="collapsible" data-collapsed="true">
+				    <h4>Preferências</h4>
+					<label for="radio-one">
+					  <input type="radio" name="preferencia" id="Pfmasculino" value="Pfmasculino"/>
+					  <i></i> <span>Homen</span>
+					</label>
+					<label for="radio-two">
+					  <input type="radio" name="preferencia" id="PfFeminino" value="PfFeminino"/>
+					  <i></i> <span>Mulher</span>
+					</label>
+					<label for="radio-two">
+					  <input type="radio" name="preferencia" id="PfAmbos" value="PfAmbos"/>
+					  <i></i> <span>Ambos</span>
+					</label>
+
+				</div>
+				<div data-role="collapsible" data-collapsed="true">
+				    <h4>Notificações</h4>
+				    <label>
+					  <input type="checkbox" name="NtMatch" id="NtMatch" value="doggie"/>
+					  <i></i> <span>Notificações de Match</span>
+					</label>
+					<label>
+					  <input type="checkbox" name="NtNnovoAmigo" id="NtNnovoAmigo" value="doggie"/>
+					  <i></i> <span>Novo Amigo</span>
+					</label>
+				</div>
+				<div data-role="collapsible" data-collapsed="true" >
+					<h4>Privacidade</h4>
+				    <label>
+					  <input type="checkbox" name="ExContagem" id="ExContagem" value="doggie"/>
+					  <i></i> <span>Exibir Contagem </span>
+					</label>
+					<label>
+					  <input type="checkbox" name="ExPicante" id="ExPicante" value="doggie"/>
+					  <i></i> <span>Exibir Opção Picante</span>
+					</label>
+				</div>
+				<div data-role="collapsible" data-collapsed="true">
+				    <h4>Política</h4>
+				    <ul data-role="listview">
+				        <li><a href="#"> Termo de Serviço</a></li>
+				        <li><a href="#"> Privacidade</a></li>				        
+				    </ul>
+				</div>
+				<div data-role="collapsible" data-collapsed="true" >
+					<h4>Conta</h4>
+					<ul data-role="listview">
+				        <li><a onclick="location.href='perfil.html'">Apagar Conta</a></li>
+				        <li><a onclick="location.href='perfil.html'">Sair</a></li>
+				    </ul>
+				</div>
+
+			</div>
+	</div>
+	</section>
+		<div id="icludeFooter"></div> 
+<script src="../statics/js/loginFacebook.js"></script>
+<script src="../statics/js/jquery.min.js"></script>
+<script src="../statics/js/jquery.mobile.custom.js"></script>
+<script src="../statics/js/bootstrap/js/bootstrap-toggle.js"></script>
+<script src="../statics/js/bootstrap/js/bootstrap.js"></script>
+<script src="../statics/js/util.js"></script>
+
+</body>
+</html>

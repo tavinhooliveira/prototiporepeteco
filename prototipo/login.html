@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="MeGa">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+	<!-- <link rel="shortcut icon" href="img/favicon.ico" /> -->
+    <title>Classificação</title>
+	<link rel="stylesheet" href="statics/css/style.css">
+	<link rel="stylesheet" href="statics/css/styleMobile.css">
+	<link rel="stylesheet" href="statics/css/bootstrap.css">
+    <link rel="stylesheet" href="statics/css/bootstrap.min.css">
+    <link rel="stylesheet" href="statics/css/bootstrap-toggle.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="statics/css/jquery.mobile.1.5.0.css"> 
+</head>
+<body>
+	 <header class="navbar-fixed-top navbar-default" id="navmenu">
+        <div class="container">
+            <div class="menu col-md-12 btn btn-navbar">             
+                <a onclick="location.href='perfil.html'"><span class=" col-md-4" data-toggle="tooltip" data-placement="bottom" title="Perfil"></span></a>     
+                <a href="#" onclick="Refresh();"><span class="col-md-4"><img id="logotipo" src="statics/img/logo.png" data-toggle="tooltip" data-placement="right" title="Refresh"></span></a> 
+                <a onclick="location.href='classificacao.html'"><span class=" col-md-4" data-toggle="tooltip" data-placement="bottom" title="Classificação"></span></a>  
+            </div>
+        </div>
+    </header>
+		<section>
+			<!--Login-->
+			<div class="container" id="logar">
+				<div class="row col-md-6 col-md-offset-3">
+					<div class="well text-center">
+					  <div><img src="statics/img/repeteco.png" style='height: 100px; width: 100px;'>
+					  </div>
+					  <h3>Vamos La!</h3>
+					  <h6>Para Entar! é obrigatório o login no Facebook!</h6>
+					  	<span onclick="location.href='pages/classificacao.html'" class="btn btn-primary">login facebook</span>
+					</div>
+					<div class="row col-md-6 text-center classificationInfo container">
+						<a class="" role="button" data-toggle="collapse" href="#collapseclassificationInfo" aria-expanded="false" aria-controls="collapseclassificationInfo">
+						 <button>Como Funciona</button>
+						</a>
+						<div class="collapse" id="collapseclassificationInfo">
+						  <div class="">
+						   <img src="statics/img/info1.png">						   
+						  </div>
+						</div>						
+					</div>
+
+				</div>				
+			</div>			
+
+		</section>
+		<footer class="footer navbar-fixed-bottom navbar-default">
+        <div class="container">
+            <div class="col-md-12 btn btn-navbar">                       
+            </div>
+        </div>
+    </footer>
+<!-- <script src="../statics/js/loginFacebook.js"></script>-->
+<script src="statics/js/jquery.min.js"></script>
+<script src="statics/js/jquery.mobile.custom.js"></script>
+<script src="statics/js/bootstrap/js/bootstrap-toggle.js"></script>
+<script src="statics/js/bootstrap/js/bootstrap.js"></script>
+<script src="statics/js/util.js"></script>
+<script type="text/javascript">
+	/*tooltip*/
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+</body>
+</html>
